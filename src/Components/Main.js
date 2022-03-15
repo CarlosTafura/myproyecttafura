@@ -1,10 +1,9 @@
-import React from "react";
-import './Header.css';
-import logo from './Img/ImagenEC.png'
+import React from 'react';
+import logo from '../Img/AutoFix.png';
 
-const Header = () => {
-  return (
-    <div>
+const Main = () => {
+    return (
+        <div>
         <img src={logo} alt="" />
       <h1>Bienvenido a tu tienda online</h1>
       <nav>
@@ -13,7 +12,8 @@ const Header = () => {
         <a href="#">Link 3</a>
       </nav>
     </div>
-  );
-};
-
-export default Header;
+    );
+  };
+  
+  export default Main;
+  
