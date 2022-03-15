@@ -1,24 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from "./Header";
+import Acordeon from './Componentes/Acordeon';
+import Nav from './Componentes/Nav';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        Hola Soy Carlos.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Nav/>
+   <Header />
+   <Acordeon/>
+   </>
   );
 }
 
