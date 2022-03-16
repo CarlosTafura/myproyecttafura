@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from '../Img/AutoFix.png'
+import logo from '../Img/AutoFix3.png'
 
 const NavBar = () => {
     return (
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src={logo} alt="" class="me-2"/>AutoFIX</a>
+    <a class="navbar-brand" href="#"><img src={logo} alt="" class="me-2 log"/>AutoFIX</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,6 +34,8 @@ const NavBar = () => {
             <li><a class="dropdown-item" href="#">Audi</a></li>
             <li><a class="dropdown-item" href="#">Citroen</a></li>
             <li><a class="dropdown-item" href="#">Peugeot</a></li>
+            <li><a class="dropdown-item" href="#">Opel</a></li>
+            <li><a class="dropdown-item" href="#">VW</a></li>
           </ul>
         </li>
       </ul>

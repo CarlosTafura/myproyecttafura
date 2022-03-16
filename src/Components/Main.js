@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from '../Img/AutoFix.png';
+
 
 const Main = () => {
     return (
         <div>
-        <img src={logo} alt="" />
       <h1>Bienvenido a tu tienda online</h1>
       <nav>
         <a href="#">Link 1</a>
